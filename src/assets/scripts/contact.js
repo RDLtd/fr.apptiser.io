@@ -47,13 +47,13 @@ export default function () {
     }
 
     function sending() {
-        btnSubmit.innerHTML = 'SENDING';
+        btnSubmit.innerHTML = 'C\’est part!';
         btnSubmit.disabled = true;
     }
     function success() {
         btnSubmit.style.backgroundColor = '#8dd910';
         btnSubmit.style.color = '#000';
-        btnSubmit.innerHTML = "Ok, we'll be in touch.";
+        btnSubmit.innerHTML = "OK, NOUS ALLONS VOUS CONTACTER.";
     }
 
 
